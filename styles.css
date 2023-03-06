@@ -269,10 +269,46 @@ box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0p
         justify-items: space-evenly;
     }
     .links-nav{
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-evenly;
         padding-top: 0px;
         padding-right: 00px;
+    }
+    .udvalg-knap{
+        height: 18px;
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+
+    header{
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 500px;
+        background-image: url(https://img.freepik.com/premium-vector/sad-face-emoji-illustration_6735-1061.jpg?w=2000);
+    }
+
+    main{
+        display: none;
+    }
+    nav{
+        background-image: url(https://t4.ftcdn.net/jpg/04/07/46/75/360_F_407467577_sPoeJGJEIcnihMsozejronbznMZtA8Ps.jpg);
+        height: 350px;
+        background-repeat: no-repeat;
+    }
+    .links-nav{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    h1{
+        display: none;
+    }
+    footer{
+        display: none;
     }
 
 }
